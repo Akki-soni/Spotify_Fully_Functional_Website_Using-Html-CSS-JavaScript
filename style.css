@@ -140,7 +140,7 @@ body {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 168px;
+  bottom: 88px;
   right: 17px;
   opacity: var(--a);
   transition: all 1s ease-out;
@@ -193,6 +193,9 @@ body {
   width: 70vw;
   padding: 12px;
   min-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .songbuttons {
@@ -270,7 +273,7 @@ body {
   background: black;
   border-radius: 10px;
   position: absolute;
-  bottom: 0;
+  bottom: 8px;
   margin: 6px;
   cursor: pointer;
 }
